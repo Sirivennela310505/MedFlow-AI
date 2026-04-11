@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 210 33% 99%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    --primary: 207 90% 54%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 207 60% 96%;
+    --secondary-foreground: 207 80% 35%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 14% 50%;
+
+    --accent: 207 60% 93%;
+    --accent-foreground: 207 80% 30%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 91%;
+    --input: 210 20% 91%;
+    --ring: 207 90% 54%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 207 90% 54%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 207 60% 96%;
+    --sidebar-accent-foreground: 207 80% 30%;
+    --sidebar-border: 210 20% 91%;
+    --sidebar-ring: 207 90% 54%;
+
+    /* MedFlow custom tokens */
+    --success: 152 69% 41%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --emergency: 0 72% 51%;
+    --emergency-foreground: 0 0% 100%;
+    --info: 207 90% 54%;
+    --info-foreground: 0 0% 100%;
+
+    --priority-low: 152 69% 41%;
+    --priority-moderate: 38 92% 50%;
+    --priority-high: 25 95% 53%;
+    --priority-emergency: 0 72% 51%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(207 90% 54%), hsl(207 90% 42%));
+    --gradient-hero: linear-gradient(135deg, hsl(207 60% 96%), hsl(210 33% 99%));
+    --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.04), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+    --shadow-elevated: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+    --shadow-hover: 0 10px 15px -3px rgb(0 0 0 / 0.06), 0 4px 6px -4px rgb(0 0 0 / 0.06);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  .shadow-hover {
+    box-shadow: var(--shadow-hover);
+  }
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  .priority-low {
+    color: hsl(var(--priority-low));
+  }
+  .priority-moderate {
+    color: hsl(var(--priority-moderate));
+  }
+  .priority-high {
+    color: hsl(var(--priority-high));
+  }
+  .priority-emergency {
+    color: hsl(var(--priority-emergency));
+  }
+  .bg-priority-low {
+    background-color: hsl(var(--priority-low) / 0.1);
+  }
+  .bg-priority-moderate {
+    background-color: hsl(var(--priority-moderate) / 0.1);
+  }
+  .bg-priority-high {
+    background-color: hsl(var(--priority-high) / 0.1);
+  }
+  .bg-priority-emergency {
+    background-color: hsl(var(--priority-emergency) / 0.1);
+  }
+}
