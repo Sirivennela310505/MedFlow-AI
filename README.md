@@ -117,13 +117,27 @@ Each has a dedicated dashboard for better workflow.
 
 ---
 
-## ▶️ How to Run
+## 🚀 MedFlow AI
 
-```bash
-npm install
-npm run dev
+AI-powered healthcare platform...
 
-## 📸 Screenshots
+---
+
+## ✨ Features
+- Smart navigation
+- Emergency support
+- Role-based dashboards
+
+---
+
+## 🛠️ Tech Stack
+- React
+- Vite
+- Tailwind CSS
+
+---
+
+## 📸 Screenshots   👈 ADD HERE
 
 ### 🏠 Home Page
 ![Homepage](./screenshots/homepage.png)
@@ -139,3 +153,11 @@ npm run dev
 
 ### 📊 Dashboard
 ![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## ▶️ How to Run
+
+```bash
+npm install
+npm run dev
