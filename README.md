@@ -111,31 +111,7 @@ Each has a dedicated dashboard for better workflow.
 
 ---
 
-## 📂 Project Structure
 
-
-
----
-
-## 🚀 MedFlow AI
-
-AI-powered healthcare platform...
-
----
-
-## ✨ Features
-- Smart navigation
-- Emergency support
-- Role-based dashboards
-
----
-
-## 🛠️ Tech Stack
-- React
-- Vite
-- Tailwind CSS
-
----
 
 ## 📸 Screenshots   👈 ADD HERE
 
