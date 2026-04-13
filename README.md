@@ -122,3 +122,20 @@ Each has a dedicated dashboard for better workflow.
 ```bash
 npm install
 npm run dev
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Homepage](./screenshots/homepage.png)
+
+### ⚡ Features
+![Features](./screenshots/features.png)
+
+### 🔗 Quick Links
+![Quick Links](./screenshots/quicklinks.png)
+
+### 🏥 Services
+![Services](./screenshots/services.png)
+
+### 📊 Dashboard
+![Dashboard](./screenshots/dashboard.png)
