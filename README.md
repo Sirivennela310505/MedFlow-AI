@@ -111,12 +111,35 @@ Each has a dedicated dashboard for better workflow.
 
 ---
 
-## 📂 Project Structure
+# 📸 Screenshots
 
+## 🏠 Home Page
 
+![Home Page](./screenshots/homepage.png)
 
 ---
 
+## ⚙ Services Section
+
+![Services](./screenshots/services.png)
+
+---
+
+## 🔗 Quick Links
+
+![Quick Links](./screenshots/quicklinks.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## 🚀 Features
+
+![Features](./screenshots/features.png)
 ## ▶️ How to Run
 
 ```bash
